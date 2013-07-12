@@ -1,0 +1,16 @@
+//////////////////////////////////////////////////////////////////
+//define private Vars
+private ["_objekt","_id"];
+//////////////////////////////////////////////////////////////////
+//File
+
+_objekt = _this select 0;
+_id = _this select 2;
+
+_objekt removeAction _id;
+
+_cur_pos = getPos player;
+
+detach bwg1;
+
+bwg1 setPos _cur_pos;
