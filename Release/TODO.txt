@@ -1,0 +1,7 @@
+// + New
+// - Remove
+// * Fix
+// ~ Update
+
++ Lift Script 
+* Cargo output kills player
